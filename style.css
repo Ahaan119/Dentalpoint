@@ -1,0 +1,426 @@
+@font-face {
+    font-family: china;
+    src: url(./3856NeueMachina.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    /* overflow-x: hidden; */
+    position: relative;
+}
+
+.page1{
+    width: 100%;
+    height: 81.5%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    padding-top: 3vw;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+nav{
+    width: 100%;
+    height: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 7vw;
+}
+
+nav i{
+    display: inline-block;
+    rotate:45deg;
+    margin-right: 8px;
+    
+}
+
+nav .nav-left h1{
+    font-size: 2.2vw;
+}
+
+nav .nav-right{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right a{
+    font-size: 1.1vw;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right button{
+    background: none;
+    border: 1px solid black;
+    padding: 18px 29px;
+    border-radius: 10px;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+.herocontent{
+    width: 45%;
+    padding-left: 7vw;
+}
+
+.herocontent h1{
+    font-size: 3.5vw;
+    font-family: "china";
+}
+
+.herocontent p{
+    font-size: 1.1vw;
+    font-weight: 400;
+    margin: 2vw 0vw;
+    padding-right: 4vw;
+}
+
+.herocontent button{
+    padding: 1vw 2vw;
+    border-radius: 15px;
+    font-size: 1vw;
+    font-weight: 400;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    letter-spacing: 1.3px;
+}
+
+.heroimg{
+    width: 55%;
+     display: flex; 
+    align-items: start;
+    justify-content: end;
+    padding-right: 7vw;
+}
+
+.heroimg img{
+    width: 30vw;
+    align-content: end;
+}
+
+.logos{
+    width: 100%;
+    height: 7vw;
+    padding: 0 7vw;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.logos img{
+    width: 8vw;
+}
+
+.page2{
+    width: 100%;
+    height: fit-content;
+    padding: 0 7vw;
+    padding-top: 8vw;
+    position: relative;
+}
+
+.page2 .service{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.service h1{
+    font-size: 2.5vw;
+    font-family: "china";
+}
+
+.service p{
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.servicebox{
+    margin-top: 7vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.servicebox .box1{
+    width: 48%;
+    height: 20vw;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw;
+    border-radius: 35px;
+    margin-bottom:5vw;
+    box-shadow: 0 13px 0 black;
+}
+
+.box1 .bleft{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bleft h1{
+    width: 70%;
+    font-size: 2.2vw;
+    font-family: "china";
+}
+
+.bleft .cta{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.bleft .cta i{
+    font-size: 2vw;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: .3vw;
+}
+
+.bleft .cta a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.33vw;
+    font-weight: 500;
+}
+
+.bright img{
+    width: 10vw;
+}
+
+
+.servicebox .box2{
+    width: 48%;
+    height: 20vw;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw;
+    border-radius: 35px;
+    box-shadow: 0 13px 0 black;
+}
+
+.box2 .bleft{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box2 .cta a, .box3 .cta a{
+    color: white;
+}
+.box2 .cta i, .box3 .cta i{
+    background-color: #fff;
+    color: black;
+}
+.box1 .cta i, .box4 .cta i{
+    color: rgba(172, 255, 47, 0.897);
+}
+
+
+.servicebox .box3{
+    width: 48%;
+    height: 20vw;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw;
+    border-radius: 35px;
+    box-shadow: 0 13px 0 black;
+}
+
+.box3 .bleft{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.servicebox .box4{
+    width: 48%;
+    height: 20vw;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw;
+    border-radius: 35px;
+    box-shadow: 0 13px 0 black;
+    margin-bottom: 7vw;
+}
+
+.box4 .bleft{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.servicebox .black{
+    background-color: black;
+}
+.servicebox .white{
+    background-color: white;
+    border-radius: 10px;
+}
+.green{
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.page3{
+    width: 100%;
+    height: fit-content;
+    padding: 5vw 7vw;
+}
+
+.page3 .firstbox{
+    width: 100%;
+    height: 20vw;
+    background-color: rgba(128, 128, 128, 0.116);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+
+.firstbox .leftcontent{
+    width: 35%;
+}
+
+.leftcontent h2{
+    font-size: 2vw;
+    font-family: "china";
+}
+
+.leftcontent p{
+    font-size: 1.1vw;
+    margin: 1.5vw 0;
+}
+
+.leftcontent button{
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2vw;
+    border-radius: 15px;
+    border: non;
+}
+
+.rightimg img{
+    width: 19vw;
+}
+
+.page3 .casestudy{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+}
+
+.casestudy h1{
+    width: 27%;
+    font-size: 2.5vw;
+    font-family: "china";
+}
+
+.casestudy p{
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.lastbox{
+    width: 100%;
+    height: 20vw;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw 3vw;
+    background-color: black;
+}
+
+.lastbox .cont{
+    width: 33%;
+    height: 100%;
+    color: white;
+    padding-right: 2.5vw;
+    padding-left: 2.5vw;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont p{
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+.cont a{
+    text-decoration: none;
+    font-size: 1.1vw;
+    padding-top: 1vw;
+    color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.cont a i{
+    font-size: 1.5vw;
+    margin-left: .3vw;
+}
+
+#first, #second{
+    border-right: 1px solid white;
+}
